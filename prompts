@@ -109,17 +109,18 @@ For each recommendation, provide:
 - Why it matters (SEO benefit + user benefit)
 - How to implement (concrete example or snippet)
 - Estimated impact (high/medium/low)
+- Example of optimized version
 
 ### E. Deliverables
 
-Return result in JSON.
+Return a human-readable report. Follow the Output Format Template described below.
 
 #### Standard Output:
 
 - Executive Summary (2-3 sentences on overall optimization level: Poor/Fair/Good/Excellent)
 - Keyword Optimization Score (0-100 with breakdown by element)
 - Issues Found (organized by priority tier)
-- Detailed Recommendations (with examples)
+
 - Quick Wins (3-5 easiest high-impact changes)
 
 Optional Enhancements (only if requested):
@@ -162,34 +163,24 @@ Output Format Template
 [Detailed breakdown]
 
 ---
-
-## 🔴 High Priority Issues
-[Critical problems with explanations]
-
-## 🟡 Medium Priority Improvements  
-[Important enhancements]
-
-## 🟢 Quick Wins
-[Easy high-impact changes]
-
----
-
-## 💡 Detailed Recommendations
-
-### 1. Title Tag
+Each issue document in this format:
+Example: 1. Title tag
 **Current:** [current title]
 **Issue:** [what's wrong]
 **Recommended:** [optimized version]
 **Why:** [benefit explanation]
-
-[Continue for each element...]
-
 ---
+## Issue categorization
+Organize each documented issue into one of the following categories
 
-## ✅ Action Checklist
-- [ ] Update title tag
-- [ ] Revise meta description
-[etc.]
+### 🔴 High Priority Issues
+[Critical problems with explanations and recommendations with examples]
+
+### 🟡 Medium Priority Improvements  
+[Important enhancements and recommendations with examples]
+
+### 🟢 Quick Wins
+[Easy high-impact changes and recommendations with examples]
 
 ---
 
